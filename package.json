@@ -1,0 +1,28 @@
+{
+  "name": "espmydoor",
+  "version": "1.0.0",
+  "description": "Cool project with an esp and an intercom :)",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "jQuery": "^1.7.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2016": "^6.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2016 src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henricazottes/espmydoor.git"
+  },
+  "author": "Henri Cazottes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henricazottes/espmydoor/issues"
+  },
+  "homepage": "https://github.com/henricazottes/espmydoor#readme"
+}
